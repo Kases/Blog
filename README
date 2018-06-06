@@ -36,8 +36,8 @@ link:files/vendor/rails/actionpack/README.html.
 
 == Web Servers
 
-By default, Rails will try to use Mongrel if it's installed when started with <tt>rails server</tt>, otherwise
-Rails will use WEBrick, the webserver that ships with Ruby. But you can also use Rails
+By default, Rails will try to use Puma if it's installed when started with <tt>rails server</tt>, otherwise
+Rails will use Apache, the webserver that ships with Ruby. But you can also use Rails
 with a variety of other web servers.
 
 Mongrel is a Ruby-based webserver with a C component (which requires compilation) that is
